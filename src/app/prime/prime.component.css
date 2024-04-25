@@ -1,0 +1,90 @@
+.hiddenTable2 {
+    display: none;
+}
+
+#phoneTable2 {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+#phoneTable2 th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffffff;
+}
+
+#phoneTable2 tr {
+    transition: background-color 0.3s ease;
+}
+
+#phoneTable2 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#phoneTable2 tr:hover {
+    background-color: #e1ffe0;
+}
+
+#phoneTable2 td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+#phoneTable2 td:last-child {
+    border-bottom: none;
+}
+
+#phoneTable2 th:last-child {
+    border-bottom: 2px solid #ffffff;
+}
+
+#phoneTable2 td:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    transition: opacity 0.3s ease;
+    z-index: -1;
+    pointer-events: none;
+}
+
+#phoneTable2 td:hover:before {
+    opacity: 1;
+}
+
+.fancyButton2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.fancyButton2:hover {
+    background-color: #45a049;
+}

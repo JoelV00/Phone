@@ -1,0 +1,8 @@
+<div>
+  <button (click)="toggleMiddleLetters()">
+    {{ showLetters ? 'Hide Middle Letters' : 'Show Middle Letters' }}
+  </button>
+  <ul *ngIf="showLetters">
+    <li *ngFor="let letter of middleLetters">{{ letter }}</li>
+  </ul>
+</div>

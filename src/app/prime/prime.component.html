@@ -1,0 +1,20 @@
+<button id="showButton2" class="fancyButton2">Show Table</button>
+
+<table id="phoneTable2" class="hiddenTable2">
+    <thead>
+        <tr>
+            <th>Brand</th>
+            <th>Price</th>
+            <th>Color</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+    <tbody id="phoneBody2">
+        <tr *ngFor="let phone of phones">
+            <td>{{ phone.brand }}</td>
+            <td>{{ phone.price }}</td>
+            <td>{{ phone.color }}</td>
+            <td>{{ phone.rating }}</td>
+        </tr>
+    </tbody>
+</table>
